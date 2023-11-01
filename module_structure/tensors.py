@@ -1,6 +1,7 @@
 import torch
 from dataclasses import dataclass
 
+__all__ = ['TensorOperations']
 
 @dataclass
 class TensorOperations:
