@@ -1,7 +1,9 @@
 # MarcosAparicioTensors
 
+# TENSOR CALCULATOR
 
-//DESCRIPTION:
+
+# DESCRIPTION:
 This project consists on the coding of a module that allows the user to perform some operations with Pytorch 2-dimensional Tensors. These operations are:
 - Returns an all-Zeros Tensor -> zeros().
 - Returns an all-Ones Tensor -> ones().
@@ -13,7 +15,7 @@ This project consists on the coding of a module that allows the user to perform 
 - Returns a normalized tensor -> normalize().
 
 
-//PACKAGES:
+# PACKAGES:
 In order to be able to use correctly this module you should import these packages or modules:
 - torch.
 - TensorOperations from module_structure.tensors.
@@ -22,7 +24,7 @@ You must import this packages with the following commands:
 - import torch.
 - from module_structure.tensors import TensorOperations.
 
-//USAGE:
+# USAGE:
 As I have explained in the previous section, firstly you should put the following commands:
 
     from module_structure.tensors import TensorOperations
@@ -77,5 +79,5 @@ And finally, you can perform the operations I have explained in the DESCRIPTION 
     print(res_min)
 
 
-//LICENSE:
+# LICENSE:
 Copyright (c) 2023 Marcos Aparicio Blázquez. Consult 'LICENSE' for more details.
